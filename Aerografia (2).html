@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Arte de Piel & Tela</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #eee;
+      background: #111;
+    }
+    header {
+      position: relative;
+      height: 60vh;
+      background: url('https://via.placeholder.com/1200x800') center/cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      text-shadow: 2px 2px 6px #000;
+    }
+    header .buttons a {
+      margin: 10px;
+      padding: 12px 24px;
+      background: #e63946;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    header .buttons a:hover { background: #b02633; }
+
+    section { padding: 40px 20px; max-width: 1200px; margin: auto; }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .about, .services, .contact {
+      margin: 40px 0;
+      text-align: center;
+    }
+
+    footer {
+      background: #222;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Arte de Piel & Tela</h1>
+    <div class="buttons">
+      <a href="https://instagram.com/aeroficcion" target="_blank">Instagram Tattoos</a>
+      <a href="https://instagram.com/aeroficcion.ink" target="_blank">Instagram Ropa</a>
+      <a href="https://wa.me/569XXXXXXXX" target="_blank">WhatsApp</a>
+    </div>
+  </header>
+
+  <section class="gallery">
+    <img src="https://via.placeholder.com/400x400?text=Tatuaje+1" alt="Tatuaje 1">
+    <img src="https://via.placeholder.com/400x400?text=Ropa+1" alt="Ropa pintada 1">
+    <img src="https://via.placeholder.com/400x400?text=Tatuaje+2" alt="Tatuaje 2">
+    <img src="https://via.placeholder.com/400x400?text=Ropa+2" alt="Ropa pintada 2">
+    <img src="https://via.placeholder.com/400x400?text=Tatuaje+3" alt="Tatuaje 3">
+    <img src="https://via.placeholder.com/400x400?text=Ropa+3" alt="Ropa pintada 3">
+  </section>
+
+  <section class="about">
+    <h2>Sobre mí</h2>
+    <p>Soy Alfredo, artista especializado en tatuajes personalizados y ropa pintada a mano. Combino técnicas clásicas con estilos contemporáneos para crear piezas únicas y llenas de expresión.</p>
+  </section>
+
+  <section class="services">
+    <h2>Servicios</h2>
+    <p><strong>Tatuajes:</strong> Micropintura, negro y gris, color. <br>
+    <strong>Ropa:</strong> Chaquetas, poleras y lienzos pintados a mano.</p>
+    <p>Precios base desde $X. Contáctame por Instagram o WhatsApp para un presupuesto personalizado.</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contacto</h2>
+    <p>Escríbeme directamente:</p>
+    <p><a href="https://instagram.com/aeroficcion" target="_blank">@aeroficcion</a> (tatuajes) | <a href="https://instagram.com/aeroficcion.ink" target="_blank">@aeroficcion.ink</a> (ropa)</p>
+    <p>O por WhatsApp: <a href="https://wa.me/569XXXXXXXX">+56 9 XXXXXXXX</a></p>
+  </section>
+
+  <footer>
+    © 2025 Alfredo • Sígueme en Instagram para ver mis últimos proyectos
+  </footer>
+
+</body>
+</html>
